@@ -75,7 +75,7 @@ public class GameBoard extends JPanel implements ActionListener {
     // Method to load the images for the snake and apple
     private void loadImages() {
         // Load images for the snake's body, apple, and head from the resources folder
-        ImageIcon bodyIcon = new ImageIcon("src/main/java/org/resources/dot.png");
+        ImageIcon bodyIcon = new ImageIcon("src/main/java/org/resources/body.png");
         bodyPart = bodyIcon.getImage();
 
         ImageIcon appleIcon = new ImageIcon("src/main/java/org/resources/apple.png");
