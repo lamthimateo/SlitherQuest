@@ -7,8 +7,8 @@ import javax.swing.*;
 public class GameBoard extends JPanel implements ActionListener {
 
     // Board dimensions
-    private final int BOARD_WIDTH = 600;   // Width of the game board in pixels
-    private final int BOARD_HEIGHT = 600;  // Height of the game board in pixels
+    private final int BOARD_WIDTH = 800;   // Width of the game board in pixels
+    private final int BOARD_HEIGHT = 800;  // Height of the game board in pixels
 
     // Size of each game unit (dot)
     private final int UNIT_SIZE = 20;      // Size of each snake segment and apple in pixels
